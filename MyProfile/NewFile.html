@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yugesh Kumar - Software Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        section {
+            font-size: 1em;
+            color: #333;
+        }
+
+        #description {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .images img {
+            width: 100px;
+            height: 100px;
+            margin: 0 10px;
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yugesh Kumar</h1>
+            <h2>Software Engineer</h2>
+        </header>
+        <section>
+            <p><strong>Experience:</strong> 1 years overall</p>
+            <p id="description"></p>
+        </section>
+        <div class="images">
+            <img src="https://via.placeholder.com/100" alt="Developer Image">
+            <img src="https://via.placeholder.com/100" alt="Computer Image">
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const description = "I am a passionate software engineer with 1.9 years of overall experience in developing and maintaining web applications. I have a strong foundation in coding, problem-solving, and a keen eye for detail.";
+            document.getElementById('description').innerText = description;
+        });
+    </script>
+</body>
+</html>
